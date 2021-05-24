@@ -1,0 +1,36 @@
+using System;
+  namespace myapp
+  {
+      class Program3
+      {
+          static void Main(string[] args)
+          {
+              int op;
+             
+              Console.WriteLine("Informe a cor:");
+              
+              
+              Console.WriteLine("Informe a operação desejada (1-Verde 2-Amarelo 3-Vermelho):");
+              op = int.Parse(Console.ReadLine());
+              switch(op)
+              {
+                  case 1 : //op == 1
+                    
+                     Console.WriteLine("Siga em frente");
+                     break;
+                  case 2: //op == 2
+                     
+                     Console.WriteLine("Cuidado");
+                     break;
+                  case 3: //op == 3
+                     
+                     Console.WriteLine("fique parado");
+                     break;
+                  
+                  default: 
+                     Console.WriteLine("Operação inválida");
+                     break;
+              }
+          }
+      }
+  }
